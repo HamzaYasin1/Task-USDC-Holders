@@ -60,13 +60,9 @@ Before running the server, you need to configure the application by setting up t
 Example production.env file:
 
 PORT=8003
-
 MONGO_URL=<MongoDB connection URL>
-
 SOCKET_URI=<WebSocket provider URI>
-
 CONTRACT_ADDRESS=<USDC contract address>
-
 Starting the Server
 
 To start the backend server, run the following command:
@@ -91,8 +87,7 @@ Subscribes to new events and updates account balances in real-time
 API Endpoints
 
 The following API endpoints are available:
-GET /api/v1/account/account-holders: 
-Retrieves all account holders
+GET /api/v1/account/account-holders: Retrieves all account holders
  
 
 
