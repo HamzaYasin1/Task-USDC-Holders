@@ -58,7 +58,8 @@ To get started with the backend server, follow the instructions below.
 Change into the backend directory:
 
 Install the dependencies:
-cd wallet-service
+
+cd wallet-service \
 npm install
 
 Configuration
