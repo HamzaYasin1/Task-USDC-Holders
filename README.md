@@ -1,5 +1,5 @@
 
-# Task-USDC-Holders
+# Task-USDC-Holders Frontend
 
 This repository contains the frontend code for the Task-USDC-Holders project.
 
