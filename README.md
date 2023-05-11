@@ -64,7 +64,8 @@ npm install
 
 Configuration
 
-Before running the server, you need to configure the application by setting up the environment variables. Create a production.env file in the root directory and provide the necessary configuration values.
+Before running the server, you need to configure the application by setting up the environment variables. \ 
+Create a production.env file in the root directory and provide the necessary configuration values.
 
 Example production.env file:
 
@@ -76,18 +77,6 @@ Example production.env file:
 | MONGO_URL         |mongodb-connection-url    | 
 | SOCKET_URI        |your-socket-uri-ehtereum  |
 | CONTRACT_ADDRESS  |your-contract-address     |
-
-
-
-
-
-
-
-
-
-
-
-
 
 Starting the Server
 
@@ -104,15 +93,16 @@ The backend server provides API endpoints for managing USDC holders' data. You c
 Functionality:
 
 The Account holder service provides the following functionality:
-Connects to MongoDB to store and retrieve account data
-Connects to the Ethereum blockchain using Web3 and interacts with a smart contract at the specified contract address which is USDC
-Retrieves past events from the contract and updates account balances
+Connects to MongoDB to store and retrieve account data \
+Connects to the Ethereum blockchain using Web3 and interacts with a smart contract at the specified contract address which is USDC \
+Retrieves past events from the contract and updates account balances \
 Subscribes to new events and updates account balances in real-time
 
-```javascript function greet(name) { console.log(Hello, ${name}!); } greet("World"); ```
+
 API Endpoints
 
 The following API endpoints are available:
+
 GET /api/v1/account/account-holders: Retrieves all account holders
  
 
