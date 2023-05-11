@@ -77,11 +77,11 @@ Example production.env file:
 | MONGO_URL         |mongodb-connection-url    | 
 | SOCKET_URI        |your-socket-uri-ehtereum  |
 | CONTRACT_ADDRESS  |your-contract-address     |
-\\\
 
 
 
-Starting the Server
+
+Starting the Server:
 
 To start the backend server, run the following command:
 
