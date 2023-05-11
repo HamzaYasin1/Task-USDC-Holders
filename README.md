@@ -57,7 +57,7 @@ Configuration
 
 Before running the server, you need to configure the application by setting up the environment variables. Create a production.env file in the root directory and provide the necessary configuration values.
 
-Example production.env file:
+Example production.env files:
 
 PORT=8003
 MONGO_URL=<MongoDB connection URL>
