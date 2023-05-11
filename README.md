@@ -63,6 +63,29 @@ PORT=8003
 MONGO_URL=<MongoDB connection URL>
 SOCKET_URI=<WebSocket provider URI>
 CONTRACT_ADDRESS=<USDC contract address>
+
+
+
+
+| Variable          | Value                    |
+|-------------------|--------------------------|
+| PORT              | 8003                     |
+| MONGO_URL         |<connection-url>
+| SOCKET_URI        |<your-socket-uri>         |
+| CONTRACT_ADDRESS  |<your-contract-address>   |
+
+
+
+
+
+
+
+
+
+
+
+
+
 Starting the Server
 
 To start the backend server, run the following command:
