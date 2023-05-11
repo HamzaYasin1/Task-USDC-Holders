@@ -6,9 +6,9 @@ npm install
 Set up environment variables:
 
 NODE_ENV=development
-PORT=8003
-MONGO_URL=<your-mongodb-connection-url>
-SOCKET_URI=<your-socket-uri>
+PORT=8003 \
+MONGO_URL=<your-mongodb-connection-url> \
+SOCKET_URI=<your-socket-uri> \
 CONTRACT_ADDRESS=<your-contract-address>
 
 npm start
