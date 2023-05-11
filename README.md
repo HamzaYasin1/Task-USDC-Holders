@@ -65,22 +65,16 @@ Configuration
 
 Before running the server, you need to configure the application by setting up the environment variables. Create a production.env file in the root directory and provide the necessary configuration values.
 
-Example production.env files:
-
-PORT=8003
-MONGO_URL=<MongoDB connection URL>
-SOCKET_URI=<WebSocket provider URI>
-CONTRACT_ADDRESS=<USDC contract address>
-
+Example production.env file:
 
 
 
 | Variable          | Value                    |
 |-------------------|--------------------------|
 | PORT              | 8003                     |
-| MONGO_URL         |<connection-url>
-| SOCKET_URI        |<your-socket-uri>         |
-| CONTRACT_ADDRESS  |<your-contract-address>   |
+| MONGO_URL         |mongodb-connection-url    | 
+| SOCKET_URI        |your-socket-uri-ehtereum  |
+| CONTRACT_ADDRESS  |your-contract-address     |
 
 
 
