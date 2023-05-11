@@ -77,6 +77,7 @@ Example production.env file:
 | MONGO_URL         |mongodb-connection-url    | 
 | SOCKET_URI        |your-socket-uri-ehtereum  |
 | CONTRACT_ADDRESS  |your-contract-address     |
+\\\
 
 
 
@@ -94,7 +95,7 @@ The backend server provides API endpoints for managing USDC holders' data. You c
 
 Functionality:
 
-The Account holder service provides the following functionality:\
+The Account holder service provides the following functionality:
 
 1: Connects to MongoDB to store and retrieve account data \
 2: Connects to the Ethereum blockchain using Web3 and interacts with a smart contract at the specified contract address which is USDC \
