@@ -83,7 +83,7 @@ Connects to the Ethereum blockchain using Web3 and interacts with a smart contra
 Retrieves past events from the contract and updates account balances
 Subscribes to new events and updates account balances in real-time
 
-
+```javascript function greet(name) { console.log(Hello, ${name}!); } greet("World"); ```
 API Endpoints
 
 The following API endpoints are available:
