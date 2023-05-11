@@ -6,10 +6,18 @@ npm install
 Set up environment variables:
 
 NODE_ENV=development
-PORT=8003
-MONGO_URL=<your-mongodb-connection-url>
-SOCKET_URI=<your-socket-uri>
+PORT=8003 \
+MONGO_URL=<your-mongodb-connection-url> \
+SOCKET_URI=<your-socket-uri> \
 CONTRACT_ADDRESS=<your-contract-address>
+
+
+| Variable          | Value                    |
+|-------------------|--------------------------|
+| PORT              | 8003                     |
+| MONGO_URL         |<connection-url>
+| SOCKET_URI        |<your-socket-uri>         |
+| CONTRACT_ADDRESS  |<your-contract-address>   |
 
 npm start
 
@@ -94,11 +102,11 @@ npm start
 
 The server will be running on the specified port, and you can access the API endpoints using the provided routes.
 
-#Usage
+Usage:
 
 The backend server provides API endpoints for managing USDC holders' data. You can find the available routes and their corresponding functionality in the routes directory. Refer to the code and the provided comments for detailed usage information.
 
-Functionality
+Functionality:
 
 The Account holder service provides the following functionality:
 Connects to MongoDB to store and retrieve account data
@@ -106,7 +114,7 @@ Connects to the Ethereum blockchain using Web3 and interacts with a smart contra
 Retrieves past events from the contract and updates account balances
 Subscribes to new events and updates account balances in real-time
 
-
+```javascript function greet(name) { console.log(Hello, ${name}!); } greet("World"); ```
 API Endpoints
 
 The following API endpoints are available:
