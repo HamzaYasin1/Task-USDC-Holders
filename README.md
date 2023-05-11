@@ -71,11 +71,11 @@ npm start
 
 The server will be running on the specified port, and you can access the API endpoints using the provided routes.
 
-#Usage
+Usage:
 
 The backend server provides API endpoints for managing USDC holders' data. You can find the available routes and their corresponding functionality in the routes directory. Refer to the code and the provided comments for detailed usage information.
 
-Functionality
+Functionality:
 
 The Account holder service provides the following functionality:
 Connects to MongoDB to store and retrieve account data
