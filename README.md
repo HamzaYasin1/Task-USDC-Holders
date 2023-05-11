@@ -35,7 +35,7 @@ GET /api/v1/account/account-holders: Retrieves all account holders
 
 
 
-vbnetCopy code# Task-USDC-Holders Backend
+# Task-USDC-Holders Backend
 
 This repository contains the backend code for the Task-USDC-Holders project. It implements functionality related to handling USDC holders' data using Node.js and Express.
 ## Getting Started
@@ -59,7 +59,7 @@ Before running the server, you need to configure the application by setting up t
 
 Example .env file:
 
-PORT=8000
+PORT=8003
 MONGO_URL=<MongoDB connection URL>
 SOCKET_URI=<WebSocket provider URI>
 CONTRACT_ADDRESS=<USDC contract address>
@@ -71,13 +71,13 @@ npm start
 
 The server will be running on the specified port, and you can access the API endpoints using the provided routes.
 
-Usage
+#Usage
 
 The backend server provides API endpoints for managing USDC holders' data. You can find the available routes and their corresponding functionality in the routes directory. Refer to the code and the provided comments for detailed usage information.
 
 Functionality
-The Account holder service provides the following functionality:
 
+The Account holder service provides the following functionality:
 Connects to MongoDB to store and retrieve account data
 Connects to the Ethereum blockchain using Web3 and interacts with a smart contract at the specified contract address which is USDC
 Retrieves past events from the contract and updates account balances
@@ -85,8 +85,8 @@ Subscribes to new events and updates account balances in real-time
 
 
 API Endpoints
-The following API endpoints are available:
 
+The following API endpoints are available:
 GET /api/v1/account/account-holders: Retrieves all account holders
  
 
