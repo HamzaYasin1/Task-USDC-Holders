@@ -55,14 +55,18 @@ npm install
 
 Configuration
 
-Before running the server, you need to configure the application by setting up the environment variables. Create a .env file in the root directory and provide the necessary configuration values.
+Before running the server, you need to configure the application by setting up the environment variables. Create a production.env file in the root directory and provide the necessary configuration values.
 
-Example .env file:
+Example production.env file:
 
 PORT=8003
+
 MONGO_URL=<MongoDB connection URL>
+
 SOCKET_URI=<WebSocket provider URI>
+
 CONTRACT_ADDRESS=<USDC contract address>
+
 Starting the Server
 
 To start the backend server, run the following command:
@@ -87,7 +91,8 @@ Subscribes to new events and updates account balances in real-time
 API Endpoints
 
 The following API endpoints are available:
-GET /api/v1/account/account-holders: Retrieves all account holders
+GET /api/v1/account/account-holders: 
+Retrieves all account holders
  
 
 
