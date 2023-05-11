@@ -93,10 +93,10 @@ The backend server provides API endpoints for managing USDC holders' data. You c
 Functionality:
 
 The Account holder service provides the following functionality:
-Connects to MongoDB to store and retrieve account data \
-Connects to the Ethereum blockchain using Web3 and interacts with a smart contract at the specified contract address which is USDC \
-Retrieves past events from the contract and updates account balances \
-Subscribes to new events and updates account balances in real-time
+1: Connects to MongoDB to store and retrieve account data \
+2: Connects to the Ethereum blockchain using Web3 and interacts with a smart contract at the specified contract address which is USDC \
+3: Retrieves past events from the contract and updates account balances \
+4: Subscribes to new events and updates account balances in real-time
 
 
 API Endpoints
